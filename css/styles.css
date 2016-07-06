@@ -62,3 +62,9 @@ h1 {
     width: 48.5%;
   }
 }
+
+@media screen and (max-width: 670px) {
+  .item {
+    width: 100%;
+  }
+}
