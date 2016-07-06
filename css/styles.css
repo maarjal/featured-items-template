@@ -52,3 +52,13 @@ h1 {
 .item img {
   width: 100%;
 }
+
+@media screen and (max-width: 1200px) {
+  .gallery div:nth-child(even) {
+    margin: 0;
+  }
+
+  .item {
+    width: 48.5%;
+  }
+}
